@@ -1,0 +1,544 @@
+2018-04-16 17:48:31,785 ActorSystem Administrator startup @ ActorAddr-(T|:1900)
+2018-04-16 17:48:31,859 directory-server: Who serves
+2018-04-16 17:48:31,861 db-server-8: View, my timeout is 6
+2018-04-16 17:48:31,862 db-server-3: View, my timeout is 9
+2018-04-16 17:48:31,864 db-server-11: View, my timeout is 9
+2018-04-16 17:48:31,865 db-server-0: View, my timeout is 15
+2018-04-16 17:48:31,867 db-server-13: View, my timeout is 8
+2018-04-16 17:48:31,868 db-server-6: View, my timeout is 9
+2018-04-16 17:48:31,870 db-server-4: View, my timeout is 13
+2018-04-16 17:48:31,871 db-server-12: View, my timeout is 14
+2018-04-16 17:48:31,873 db-server-1: View, my timeout is 17
+2018-04-16 17:48:31,875 db-server-10: View, my timeout is 17
+2018-04-16 17:48:31,876 db-server-14: View, my timeout is 14
+2018-04-16 17:48:31,878 db-server-2: View, my timeout is 8
+2018-04-16 17:48:31,879 db-server-7: View, my timeout is 16
+2018-04-16 17:48:31,881 db-server-9: View, my timeout is 9
+2018-04-16 17:48:31,882 db-server-5: View, my timeout is 7
+2018-04-16 17:48:37,868 db-server-8: Role change, became CANDIDATE
+2018-04-16 17:48:37,869 db-server-8: Sending RequestVote
+2018-04-16 17:48:37,871 db-server-8: Sending RequestVote
+2018-04-16 17:48:37,872 db-server-8: Sending RequestVote
+2018-04-16 17:48:37,876 db-server-3: Voting for db-server-8, term 1
+2018-04-16 17:48:37,878 db-server-8: Received vote for term 1
+2018-04-16 17:48:37,878 db-server-11: Voting for db-server-8, term 1
+2018-04-16 17:48:37,878 db-server-8: Became leader for term 1
+2018-04-16 17:48:37,880 directory-server: Leader changed for cluster cluster-1=========
+2018-04-16 17:48:37,883 db-server-3: Found new leader for term 1
+2018-04-16 17:48:37,884 db-server-3: Received heartbeat 1
+2018-04-16 17:48:37,884 db-server-11: Found new leader for term 1
+2018-04-16 17:48:37,884 db-server-11: Received heartbeat 1
+2018-04-16 17:48:38,889 db-server-5: Role change, became CANDIDATE
+2018-04-16 17:48:38,889 db-server-3: Received heartbeat 1
+2018-04-16 17:48:38,890 db-server-11: Received heartbeat 1
+2018-04-16 17:48:38,889 db-server-5: Sending RequestVote
+2018-04-16 17:48:38,890 db-server-5: Sending RequestVote
+2018-04-16 17:48:38,893 db-server-7: Voting for db-server-5, term 1
+2018-04-16 17:48:38,890 db-server-5: Sending RequestVote
+2018-04-16 17:48:38,894 db-server-5: Received vote for term 1
+2018-04-16 17:48:38,896 db-server-9: Voting for db-server-5, term 1
+2018-04-16 17:48:38,896 directory-server: Leader changed for cluster cluster-3=========
+2018-04-16 17:48:38,894 db-server-5: Became leader for term 1
+2018-04-16 17:48:38,900 db-server-7: Found new leader for term 1
+2018-04-16 17:48:38,900 db-server-7: Received heartbeat 1
+2018-04-16 17:48:38,901 db-server-9: Found new leader for term 1
+2018-04-16 17:48:38,901 db-server-9: Received heartbeat 1
+2018-04-16 17:48:39,876 db-server-13: Role change, became CANDIDATE
+2018-04-16 17:48:39,877 db-server-13: Sending RequestVote
+2018-04-16 17:48:39,879 db-server-13: Sending RequestVote
+2018-04-16 17:48:39,883 db-server-0: Voting for db-server-13, term 1
+2018-04-16 17:48:39,880 db-server-13: Sending RequestVote
+2018-04-16 17:48:39,885 db-server-2: Role change, became CANDIDATE
+2018-04-16 17:48:39,885 db-server-13: Received vote for term 1
+2018-04-16 17:48:39,885 db-server-2: Sending RequestVote
+2018-04-16 17:48:39,885 db-server-13: Became leader for term 1
+2018-04-16 17:48:39,888 directory-server: Leader changed for cluster cluster-4=========
+2018-04-16 17:48:39,888 db-server-6: Voting for db-server-13, term 1
+2018-04-16 17:48:39,886 db-server-2: Sending RequestVote
+2018-04-16 17:48:39,890 db-server-0: Found new leader for term 1
+2018-04-16 17:48:39,890 db-server-0: Received heartbeat 1
+2018-04-16 17:48:39,891 db-server-10: Voting for db-server-2, term 1
+2018-04-16 17:48:39,887 db-server-2: Sending RequestVote
+2018-04-16 17:48:39,892 db-server-14: Voting for db-server-2, term 1
+2018-04-16 17:48:39,893 db-server-2: Received vote for term 1
+2018-04-16 17:48:39,893 db-server-2: Became leader for term 1
+2018-04-16 17:48:39,895 directory-server: Leader changed for cluster cluster-2=========
+2018-04-16 17:48:39,898 db-server-10: Found new leader for term 1
+2018-04-16 17:48:39,898 db-server-10: Received heartbeat 1
+2018-04-16 17:48:39,899 db-server-7: Received heartbeat 1
+2018-04-16 17:48:39,927 db-server-3: Received heartbeat 1
+2018-04-16 17:48:39,935 db-server-14: Found new leader for term 1
+2018-04-16 17:48:39,936 db-server-9: Received heartbeat 1
+2018-04-16 17:48:39,936 db-server-14: Received heartbeat 1
+2018-04-16 17:48:39,963 db-server-6: Found new leader for term 1
+2018-04-16 17:48:39,964 db-server-11: Received heartbeat 1
+2018-04-16 17:48:39,963 db-server-6: Received heartbeat 1
+2018-04-16 17:48:40,896 db-server-0: Received heartbeat 1
+2018-04-16 17:48:40,899 db-server-3: Received heartbeat 1
+2018-04-16 17:48:40,900 db-server-10: Received heartbeat 1
+2018-04-16 17:48:40,902 db-server-11: Received heartbeat 1
+2018-04-16 17:48:40,903 db-server-7: Received heartbeat 1
+2018-04-16 17:48:40,904 db-server-14: Received heartbeat 1
+2018-04-16 17:48:40,905 db-server-9: Received heartbeat 1
+2018-04-16 17:48:40,932 db-server-6: Received heartbeat 1
+2018-04-16 17:48:41,901 db-server-0: Received heartbeat 1
+2018-04-16 17:48:41,904 db-server-10: Received heartbeat 1
+2018-04-16 17:48:41,906 db-server-3: Received heartbeat 1
+2018-04-16 17:48:41,906 db-server-7: Received heartbeat 1
+2018-04-16 17:48:41,907 db-server-6: Received heartbeat 1
+2018-04-16 17:48:41,910 db-server-11: Received heartbeat 1
+2018-04-16 17:48:41,942 db-server-14: Received heartbeat 1
+2018-04-16 17:48:41,945 db-server-9: Received heartbeat 1
+2018-04-16 17:48:42,907 db-server-0: Received heartbeat 1
+2018-04-16 17:48:42,908 db-server-10: Received heartbeat 1
+2018-04-16 17:48:42,911 db-server-7: Received heartbeat 1
+2018-04-16 17:48:42,913 db-server-6: Received heartbeat 1
+2018-04-16 17:48:42,946 db-server-14: Received heartbeat 1
+2018-04-16 17:48:42,947 db-server-3: Received heartbeat 1
+2018-04-16 17:48:42,950 db-server-9: Received heartbeat 1
+2018-04-16 17:48:42,985 db-server-11: Received heartbeat 1
+2018-04-16 17:48:43,913 db-server-10: Received heartbeat 1
+2018-04-16 17:48:43,914 db-server-0: Received heartbeat 1
+2018-04-16 17:48:43,916 db-server-7: Received heartbeat 1
+2018-04-16 17:48:43,916 db-server-14: Received heartbeat 1
+2018-04-16 17:48:43,921 db-server-6: Received heartbeat 1
+2018-04-16 17:48:43,951 db-server-3: Received heartbeat 1
+2018-04-16 17:48:43,954 db-server-9: Received heartbeat 1
+2018-04-16 17:48:43,954 db-server-11: Received heartbeat 1
+2018-04-16 17:48:44,881 db-server-4: Role change, became CANDIDATE
+2018-04-16 17:48:44,882 db-server-4: Sending RequestVote
+2018-04-16 17:48:44,884 db-server-4: Sending RequestVote
+2018-04-16 17:48:44,885 db-server-4: Sending RequestVote
+2018-04-16 17:48:44,897 db-server-12: Voting for db-server-4, term 1
+2018-04-16 17:48:44,900 db-server-4: Received vote for term 1
+2018-04-16 17:48:44,900 db-server-1: Voting for db-server-4, term 1
+2018-04-16 17:48:44,907 directory-server: Leader changed for cluster cluster-0=========
+2018-04-16 17:48:44,901 db-server-4: Became leader for term 1
+2018-04-16 17:48:44,917 db-server-12: Found new leader for term 1
+2018-04-16 17:48:44,918 db-server-12: Received heartbeat 1
+2018-04-16 17:48:44,921 db-server-10: Received heartbeat 1
+2018-04-16 17:48:44,922 db-server-0: Received heartbeat 1
+2018-04-16 17:48:44,924 db-server-7: Received heartbeat 1
+2018-04-16 17:48:44,925 db-server-1: Found new leader for term 1
+2018-04-16 17:48:44,925 db-server-1: Received heartbeat 1
+2018-04-16 17:48:44,928 db-server-14: Received heartbeat 1
+2018-04-16 17:48:44,931 db-server-9: Received heartbeat 1
+2018-04-16 17:48:44,960 db-server-3: Received heartbeat 1
+2018-04-16 17:48:44,961 db-server-6: Received heartbeat 1
+2018-04-16 17:48:44,962 db-server-11: Received heartbeat 1
+2018-04-16 17:48:45,915 db-server-12: Received heartbeat 1
+2018-04-16 17:48:45,916 db-server-1: Received heartbeat 1
+2018-04-16 17:48:45,921 db-server-10: Received heartbeat 1
+2018-04-16 17:48:45,924 db-server-0: Received heartbeat 1
+2018-04-16 17:48:45,925 db-server-7: Received heartbeat 1
+2018-04-16 17:48:45,929 db-server-3: Received heartbeat 1
+2018-04-16 17:48:45,930 db-server-11: Received heartbeat 1
+2018-04-16 17:48:45,958 db-server-14: Received heartbeat 1
+2018-04-16 17:48:45,963 db-server-9: Received heartbeat 1
+2018-04-16 17:48:45,964 db-server-6: Received heartbeat 1
+2018-04-16 17:48:46,928 db-server-12: Received heartbeat 1
+2018-04-16 17:48:46,936 db-server-1: Received heartbeat 1
+2018-04-16 17:48:46,941 db-server-0: Received heartbeat 1
+2018-04-16 17:48:46,941 db-server-10: Received heartbeat 1
+2018-04-16 17:48:46,941 db-server-7: Received heartbeat 1
+2018-04-16 17:48:46,949 db-server-14: Received heartbeat 1
+2018-04-16 17:48:46,951 db-server-9: Received heartbeat 1
+2018-04-16 17:48:46,980 db-server-6: Received heartbeat 1
+2018-04-16 17:48:46,986 db-server-3: Received heartbeat 1
+2018-04-16 17:48:46,988 db-server-11: Received heartbeat 1
+2018-04-16 17:48:47,927 db-server-12: Received heartbeat 1
+2018-04-16 17:48:47,928 db-server-1: Received heartbeat 1
+2018-04-16 17:48:47,938 db-server-10: Received heartbeat 1
+2018-04-16 17:48:47,938 db-server-7: Received heartbeat 1
+2018-04-16 17:48:47,941 db-server-9: Received heartbeat 1
+2018-04-16 17:48:47,942 db-server-0: Received heartbeat 1
+2018-04-16 17:48:47,947 db-server-3: Received heartbeat 1
+2018-04-16 17:48:47,949 db-server-11: Received heartbeat 1
+2018-04-16 17:48:47,974 db-server-14: Received heartbeat 1
+2018-04-16 17:48:47,980 db-server-6: Received heartbeat 1
+2018-04-16 17:48:48,931 View clerk-0
+2018-04-16 17:48:48,933 Server map of clerk-0 updated
+2018-04-16 17:48:48,942 db-server-7: Received heartbeat 1
+2018-04-16 17:48:48,942 db-server-10: Received heartbeat 1
+2018-04-16 17:48:48,944 db-server-14: Received heartbeat 1
+2018-04-16 17:48:48,945 db-server-0: Received heartbeat 1
+2018-04-16 17:48:48,950 db-server-3: Received heartbeat 1
+2018-04-16 17:48:48,951 db-server-11: Received heartbeat 1
+2018-04-16 17:48:48,964 db-server-12: Received heartbeat 1
+2018-04-16 17:48:48,965 db-server-1: Received heartbeat 1
+2018-04-16 17:48:48,978 db-server-9: Received heartbeat 1
+2018-04-16 17:48:48,982 db-server-6: Received heartbeat 1
+2018-04-16 17:48:49,435 clerk-0 -Starting read for: dict_keys([673, 219, 324, 113, 881, 244, 916, 7, 500, 927])
+2018-04-16 17:48:49,437 clerk-0 -Sending reads to dict_keys(['db-server-4', 'db-server-5', 'db-server-2', 'db-server-8', 'db-server-13']) 
+2018-04-16 17:48:49,463 clerk-0 -Read finished for clerk-0-trx-0
+2018-04-16 17:48:49,463 clerk-0 -updating cache with answer {673: (0, 0), 113: (0, 0)}
+2018-04-16 17:48:49,463 clerk-0 -updating cache with answer {500: (0, 0)}
+2018-04-16 17:48:49,463 clerk-0 -updating cache with answer {927: (0, 0), 7: (0, 0)}
+2018-04-16 17:48:49,464 clerk-0 -updating cache with answer {244: (0, 0), 219: (0, 0), 324: (0, 0)}
+2018-04-16 17:48:49,464 clerk-0 -updating cache with answer {881: (0, 0), 916: (0, 0)}
+2018-04-16 17:48:49,467 clerk-0 -Starting prepare. Server_map: {'db-server-4': {500}, 'db-server-5': {113, 673}, 'db-server-2': {7, 927}, 'db-server-8': {881, 916}, 'db-server-13': {219, 324, 244}}
+2018-04-16 17:48:49,467 clerk-0 -Committing clerk-0-trx-0
+2018-04-16 17:48:49,467 clerk-0 -Sending prepare to dict_keys(['db-server-4', 'db-server-5', 'db-server-2', 'db-server-8', 'db-server-13']) 
+2018-04-16 17:48:49,481 db-server-5 Validation successful for clerk-0-trx-0 - Prepare OK
+2018-04-16 17:48:49,483 db-server-4 Validation successful for clerk-0-trx-0 - Prepare OK
+2018-04-16 17:48:49,485 db-server-2 Validation successful for clerk-0-trx-0 - Prepare OK
+2018-04-16 17:48:49,487 db-server-13 Validation successful for clerk-0-trx-0 - Prepare OK
+2018-04-16 17:48:49,489 db-server-8 Validation successful for clerk-0-trx-0 - Prepare OK
+2018-04-16 17:48:49,492 clerk-0 -Received all prepare ok and sending commit to dict_keys(['db-server-4', 'db-server-5', 'db-server-2', 'db-server-8', 'db-server-13']) 
+2018-04-16 17:48:49,502 db-server-5 -Committing clerk-0-trx-0 with 
+read_set: dict_keys([673, 113])
+write_set: dict_keys([113])
+2018-04-16 17:48:49,503 db-server-4 -Committing clerk-0-trx-0 with 
+read_set: dict_keys([500])
+write_set: dict_keys([])
+2018-04-16 17:48:49,505 db-server-2 -Committing clerk-0-trx-0 with 
+read_set: dict_keys([7, 927])
+write_set: dict_keys([927])
+2018-04-16 17:48:49,508 db-server-13 -Committing clerk-0-trx-0 with 
+read_set: dict_keys([324, 219, 244])
+write_set: dict_keys([244])
+2018-04-16 17:48:49,509 db-server-8 -Committing clerk-0-trx-0 with 
+read_set: dict_keys([881, 916])
+write_set: dict_keys([881, 916])
+2018-04-16 17:48:49,502 db-server-5 -Sending cache invalidation for 113
+2018-04-16 17:48:49,505 db-server-2 -Sending cache invalidation for 927
+2018-04-16 17:48:49,513 db-server-7: appended trx clerk-0-trx-0 as follower
+2018-04-16 17:48:49,513 clerk-0 -Received cache invalidation for 113
+2018-04-16 17:48:49,515 db-server-12: appended trx clerk-0-trx-0 as follower
+2018-04-16 17:48:49,509 db-server-13 -Sending cache invalidation for 244
+2018-04-16 17:48:49,517 db-server-10: appended trx clerk-0-trx-0 as follower
+2018-04-16 17:48:49,517 db-server-9: appended trx clerk-0-trx-0 as follower
+2018-04-16 17:48:49,514 clerk-0 -Received cache invalidation for 927
+2018-04-16 17:48:49,519 db-server-0: appended trx clerk-0-trx-0 as follower
+2018-04-16 17:48:49,519 db-server-1: appended trx clerk-0-trx-0 as follower
+2018-04-16 17:48:49,517 clerk-0 -Received cache invalidation for 244
+2018-04-16 17:48:49,510 db-server-8 -Sending cache invalidation for 881
+2018-04-16 17:48:49,523 db-server-6: appended trx clerk-0-trx-0 as follower
+2018-04-16 17:48:49,523 clerk-0 -Received cache invalidation for 881
+2018-04-16 17:48:49,524 clerk-0 -Committed clerk-0-trx-0 
+2018-04-16 17:48:49,526 clerk-0 -Received cache invalidation for 916
+2018-04-16 17:48:49,512 db-server-8 -Sending cache invalidation for 916
+2018-04-16 17:48:49,530 db-server-3: appended trx clerk-0-trx-0 as follower
+2018-04-16 17:48:49,531 db-server-11: appended trx clerk-0-trx-0 as follower
+2018-04-16 17:48:49,552 db-server-14: appended trx clerk-0-trx-0 as follower
+2018-04-16 17:48:49,950 db-server-12: Received heartbeat 1
+2018-04-16 17:48:49,958 db-server-7: Received heartbeat 1
+2018-04-16 17:48:49,959 db-server-1: Received heartbeat 1
+2018-04-16 17:48:49,960 db-server-0: Received heartbeat 1
+2018-04-16 17:48:49,963 db-server-10: Received heartbeat 1
+2018-04-16 17:48:50,000 db-server-9: Received heartbeat 1
+2018-04-16 17:48:50,007 db-server-14: Received heartbeat 1
+2018-04-16 17:48:50,008 db-server-3: Received heartbeat 1
+2018-04-16 17:48:50,038 db-server-6: Received heartbeat 1
+2018-04-16 17:48:50,044 db-server-11: Received heartbeat 1
+2018-04-16 17:48:50,946 db-server-12: Received heartbeat 1
+2018-04-16 17:48:50,948 db-server-1: Received heartbeat 1
+2018-04-16 17:48:50,957 db-server-7: Received heartbeat 1
+2018-04-16 17:48:50,960 db-server-9: Received heartbeat 1
+2018-04-16 17:48:50,963 db-server-0: Received heartbeat 1
+2018-04-16 17:48:50,962 db-server-10: Received heartbeat 1
+2018-04-16 17:48:50,965 db-server-14: Received heartbeat 1
+2018-04-16 17:48:50,967 db-server-6: Received heartbeat 1
+2018-04-16 17:48:50,973 db-server-3: Received heartbeat 1
+2018-04-16 17:48:50,974 db-server-11: Received heartbeat 1
+2018-04-16 17:48:51,966 db-server-12: Received heartbeat 1
+2018-04-16 17:48:51,973 db-server-1: Received heartbeat 1
+2018-04-16 17:48:51,976 db-server-0: Received heartbeat 1
+2018-04-16 17:48:51,977 db-server-7: Received heartbeat 1
+2018-04-16 17:48:51,977 db-server-10: Received heartbeat 1
+2018-04-16 17:48:51,982 db-server-14: Received heartbeat 1
+2018-04-16 17:48:51,984 db-server-6: Received heartbeat 1
+2018-04-16 17:48:51,987 db-server-3: Received heartbeat 1
+2018-04-16 17:48:51,989 db-server-11: Received heartbeat 1
+2018-04-16 17:48:52,014 db-server-9: Received heartbeat 1
+2018-04-16 17:48:52,963 db-server-12: Received heartbeat 1
+2018-04-16 17:48:52,964 db-server-1: Received heartbeat 1
+2018-04-16 17:48:52,981 db-server-10: Received heartbeat 1
+2018-04-16 17:48:52,984 db-server-14: Received heartbeat 1
+2018-04-16 17:48:52,985 db-server-0: Received heartbeat 1
+2018-04-16 17:48:52,985 db-server-7: Received heartbeat 1
+2018-04-16 17:48:52,989 db-server-9: Received heartbeat 1
+2018-04-16 17:48:52,991 db-server-3: Received heartbeat 1
+2018-04-16 17:48:52,991 db-server-6: Received heartbeat 1
+2018-04-16 17:48:52,992 db-server-11: Received heartbeat 1
+2018-04-16 17:48:53,971 db-server-12: Received heartbeat 1
+2018-04-16 17:48:53,972 db-server-1: Received heartbeat 1
+2018-04-16 17:48:53,991 db-server-0: Received heartbeat 1
+2018-04-16 17:48:53,992 db-server-7: Received heartbeat 1
+2018-04-16 17:48:53,993 db-server-10: Received heartbeat 1
+2018-04-16 17:48:53,994 db-server-9: Received heartbeat 1
+2018-04-16 17:48:53,996 db-server-6: Received heartbeat 1
+2018-04-16 17:48:53,997 db-server-14: Received heartbeat 1
+2018-04-16 17:48:54,034 db-server-3: Received heartbeat 1
+2018-04-16 17:48:54,037 db-server-11: Received heartbeat 1
+2018-04-16 17:48:54,989 db-server-12: Received heartbeat 1
+2018-04-16 17:48:54,992 db-server-1: Received heartbeat 1
+2018-04-16 17:48:54,998 db-server-0: Received heartbeat 1
+2018-04-16 17:48:55,000 db-server-7: Received heartbeat 1
+2018-04-16 17:48:55,001 db-server-10: Received heartbeat 1
+2018-04-16 17:48:55,004 db-server-6: Received heartbeat 1
+2018-04-16 17:48:55,004 db-server-14: Received heartbeat 1
+2018-04-16 17:48:55,008 db-server-3: Received heartbeat 1
+2018-04-16 17:48:55,010 db-server-11: Received heartbeat 1
+2018-04-16 17:48:55,036 db-server-9: Received heartbeat 1
+2018-04-16 17:48:55,991 db-server-12: Received heartbeat 1
+2018-04-16 17:48:55,992 db-server-1: Received heartbeat 1
+2018-04-16 17:48:56,004 db-server-0: Received heartbeat 1
+2018-04-16 17:48:56,005 db-server-7: Received heartbeat 1
+2018-04-16 17:48:56,008 db-server-9: Received heartbeat 1
+2018-04-16 17:48:56,008 db-server-10: Received heartbeat 1
+2018-04-16 17:48:56,009 db-server-6: Received heartbeat 1
+2018-04-16 17:48:56,012 db-server-14: Received heartbeat 1
+2018-04-16 17:48:56,016 db-server-3: Received heartbeat 1
+2018-04-16 17:48:56,018 db-server-11: Received heartbeat 1
+2018-04-16 17:48:56,998 db-server-12: Received heartbeat 1
+2018-04-16 17:48:57,000 db-server-1: Received heartbeat 1
+2018-04-16 17:48:57,009 db-server-7: Received heartbeat 1
+2018-04-16 17:48:57,010 db-server-10: Received heartbeat 1
+2018-04-16 17:48:57,011 db-server-0: Received heartbeat 1
+2018-04-16 17:48:57,012 db-server-9: Received heartbeat 1
+2018-04-16 17:48:57,018 db-server-6: Received heartbeat 1
+2018-04-16 17:48:57,018 db-server-3: Received heartbeat 1
+2018-04-16 17:48:57,020 db-server-11: Received heartbeat 1
+2018-04-16 17:48:57,047 db-server-14: Received heartbeat 1
+2018-04-16 17:48:58,007 db-server-12: Received heartbeat 1
+2018-04-16 17:48:58,009 db-server-1: Received heartbeat 1
+2018-04-16 17:48:58,016 db-server-7: Received heartbeat 1
+2018-04-16 17:48:58,016 db-server-0: Received heartbeat 1
+2018-04-16 17:48:58,016 db-server-10: Received heartbeat 1
+2018-04-16 17:48:58,020 db-server-9: Received heartbeat 1
+2018-04-16 17:48:58,022 db-server-6: Received heartbeat 1
+2018-04-16 17:48:58,028 db-server-3: Received heartbeat 1
+2018-04-16 17:48:58,029 db-server-11: Received heartbeat 1
+2018-04-16 17:48:58,059 db-server-14: Received heartbeat 1
+2018-04-16 17:48:59,018 db-server-12: Received heartbeat 1
+2018-04-16 17:48:59,021 db-server-1: Received heartbeat 1
+2018-04-16 17:48:59,022 db-server-0: Received heartbeat 1
+2018-04-16 17:48:59,023 db-server-10: Received heartbeat 1
+2018-04-16 17:48:59,025 db-server-7: Received heartbeat 1
+2018-04-16 17:48:59,028 db-server-6: Received heartbeat 1
+2018-04-16 17:48:59,029 db-server-9: Received heartbeat 1
+2018-04-16 17:48:59,038 db-server-3: Received heartbeat 1
+2018-04-16 17:48:59,039 db-server-11: Received heartbeat 1
+2018-04-16 17:48:59,059 db-server-14: Received heartbeat 1
+2018-04-16 17:49:00,028 db-server-0: Received heartbeat 1
+2018-04-16 17:49:00,028 db-server-12: Received heartbeat 1
+2018-04-16 17:49:00,029 db-server-10: Received heartbeat 1
+2018-04-16 17:49:00,031 db-server-1: Received heartbeat 1
+2018-04-16 17:49:00,032 db-server-14: Received heartbeat 1
+2018-04-16 17:49:00,034 db-server-6: Received heartbeat 1
+2018-04-16 17:49:00,036 db-server-7: Received heartbeat 1
+2018-04-16 17:49:00,040 db-server-9: Received heartbeat 1
+2018-04-16 17:49:00,047 db-server-3: Received heartbeat 1
+2018-04-16 17:49:00,049 db-server-11: Received heartbeat 1
+2018-04-16 17:49:01,038 db-server-0: Received heartbeat 1
+2018-04-16 17:49:01,038 db-server-10: Received heartbeat 1
+2018-04-16 17:49:01,041 db-server-12: Received heartbeat 1
+2018-04-16 17:49:01,042 db-server-14: Received heartbeat 1
+2018-04-16 17:49:01,045 db-server-6: Received heartbeat 1
+2018-04-16 17:49:01,046 db-server-1: Received heartbeat 1
+2018-04-16 17:49:01,046 db-server-7: Received heartbeat 1
+2018-04-16 17:49:01,050 db-server-9: Received heartbeat 1
+2018-04-16 17:49:01,057 db-server-3: Received heartbeat 1
+2018-04-16 17:49:01,059 db-server-11: Received heartbeat 1
+2018-04-16 17:49:02,063 db-server-12: Received heartbeat 1
+2018-04-16 17:49:02,069 db-server-1: Received heartbeat 1
+2018-04-16 17:49:02,069 db-server-10: Received heartbeat 1
+2018-04-16 17:49:02,070 db-server-0: Received heartbeat 1
+2018-04-16 17:49:02,072 db-server-7: Received heartbeat 1
+2018-04-16 17:49:02,075 db-server-14: Received heartbeat 1
+2018-04-16 17:49:02,077 db-server-9: Received heartbeat 1
+2018-04-16 17:49:02,083 db-server-3: Received heartbeat 1
+2018-04-16 17:49:02,085 db-server-11: Received heartbeat 1
+2018-04-16 17:49:02,109 db-server-6: Received heartbeat 1
+2018-04-16 17:49:03,064 db-server-12: Received heartbeat 1
+2018-04-16 17:49:03,067 db-server-1: Received heartbeat 1
+2018-04-16 17:49:03,072 db-server-10: Received heartbeat 1
+2018-04-16 17:49:03,074 db-server-7: Received heartbeat 1
+2018-04-16 17:49:03,075 db-server-14: Received heartbeat 1
+2018-04-16 17:49:03,077 db-server-9: Received heartbeat 1
+2018-04-16 17:49:03,078 db-server-0: Received heartbeat 1
+2018-04-16 17:49:03,085 db-server-3: Received heartbeat 1
+2018-04-16 17:49:03,086 db-server-6: Received heartbeat 1
+2018-04-16 17:49:03,087 db-server-11: Received heartbeat 1
+2018-04-16 17:49:04,092 db-server-7: Received heartbeat 1
+2018-04-16 17:49:04,092 db-server-0: Received heartbeat 1
+2018-04-16 17:49:04,096 db-server-10: Received heartbeat 1
+2018-04-16 17:49:04,097 db-server-9: Received heartbeat 1
+2018-04-16 17:49:04,100 db-server-14: Received heartbeat 1
+2018-04-16 17:49:04,102 db-server-3: Received heartbeat 1
+2018-04-16 17:49:04,104 db-server-11: Received heartbeat 1
+2018-04-16 17:49:04,116 db-server-12: Received heartbeat 1
+2018-04-16 17:49:04,117 db-server-1: Received heartbeat 1
+2018-04-16 17:49:04,130 db-server-6: Received heartbeat 1
+2018-04-16 17:49:05,105 db-server-12: Received heartbeat 1
+2018-04-16 17:49:05,111 db-server-7: Received heartbeat 1
+2018-04-16 17:49:05,111 db-server-1: Received heartbeat 1
+2018-04-16 17:49:05,116 db-server-9: Received heartbeat 1
+2018-04-16 17:49:05,117 db-server-10: Received heartbeat 1
+2018-04-16 17:49:05,119 db-server-0: Received heartbeat 1
+2018-04-16 17:49:05,120 db-server-14: Received heartbeat 1
+2018-04-16 17:49:05,125 db-server-3: Received heartbeat 1
+2018-04-16 17:49:05,127 db-server-6: Received heartbeat 1
+2018-04-16 17:49:05,127 db-server-11: Received heartbeat 1
+2018-04-16 17:49:06,121 db-server-12: Received heartbeat 1
+2018-04-16 17:49:06,129 db-server-0: Received heartbeat 1
+2018-04-16 17:49:06,128 db-server-1: Received heartbeat 1
+2018-04-16 17:49:06,133 db-server-7: Received heartbeat 1
+2018-04-16 17:49:06,134 db-server-10: Received heartbeat 1
+2018-04-16 17:49:06,137 db-server-9: Received heartbeat 1
+2018-04-16 17:49:06,137 db-server-6: Received heartbeat 1
+2018-04-16 17:49:06,137 db-server-14: Received heartbeat 1
+2018-04-16 17:49:06,143 db-server-3: Received heartbeat 1
+2018-04-16 17:49:06,145 db-server-11: Received heartbeat 1
+2018-04-16 17:49:07,134 db-server-12: Received heartbeat 1
+2018-04-16 17:49:07,141 db-server-1: Received heartbeat 1
+2018-04-16 17:49:07,142 db-server-0: Received heartbeat 1
+2018-04-16 17:49:07,147 db-server-10: Received heartbeat 1
+2018-04-16 17:49:07,147 db-server-7: Received heartbeat 1
+2018-04-16 17:49:07,151 db-server-9: Received heartbeat 1
+2018-04-16 17:49:07,183 db-server-6: Received heartbeat 1
+2018-04-16 17:49:07,183 db-server-14: Received heartbeat 1
+2018-04-16 17:49:07,184 db-server-3: Received heartbeat 1
+2018-04-16 17:49:07,186 db-server-11: Received heartbeat 1
+2018-04-16 17:49:08,133 db-server-12: Received heartbeat 1
+2018-04-16 17:49:08,135 db-server-1: Received heartbeat 1
+2018-04-16 17:49:08,147 db-server-0: Received heartbeat 1
+2018-04-16 17:49:08,151 db-server-10: Received heartbeat 1
+2018-04-16 17:49:08,154 db-server-14: Received heartbeat 1
+2018-04-16 17:49:08,154 db-server-6: Received heartbeat 1
+2018-04-16 17:49:08,155 db-server-7: Received heartbeat 1
+2018-04-16 17:49:08,157 db-server-9: Received heartbeat 1
+2018-04-16 17:49:08,160 db-server-3: Received heartbeat 1
+2018-04-16 17:49:08,162 db-server-11: Received heartbeat 1
+2018-04-16 17:49:09,167 db-server-12: Received heartbeat 1
+2018-04-16 17:49:09,172 db-server-1: Received heartbeat 1
+2018-04-16 17:49:09,175 db-server-0: Received heartbeat 1
+2018-04-16 17:49:09,176 db-server-10: Received heartbeat 1
+2018-04-16 17:49:09,178 db-server-7: Received heartbeat 1
+2018-04-16 17:49:09,179 db-server-14: Received heartbeat 1
+2018-04-16 17:49:09,183 db-server-9: Received heartbeat 1
+2018-04-16 17:49:09,208 db-server-3: Received heartbeat 1
+2018-04-16 17:49:09,211 db-server-11: Received heartbeat 1
+2018-04-16 17:49:09,214 db-server-6: Received heartbeat 1
+2018-04-16 17:49:10,180 db-server-12: Received heartbeat 1
+2018-04-16 17:49:10,184 db-server-10: Received heartbeat 1
+2018-04-16 17:49:10,185 db-server-1: Received heartbeat 1
+2018-04-16 17:49:10,188 db-server-7: Received heartbeat 1
+2018-04-16 17:49:10,189 db-server-0: Received heartbeat 1
+2018-04-16 17:49:10,191 db-server-9: Received heartbeat 1
+2018-04-16 17:49:10,194 db-server-3: Received heartbeat 1
+2018-04-16 17:49:10,197 db-server-11: Received heartbeat 1
+2018-04-16 17:49:10,198 db-server-6: Received heartbeat 1
+2018-04-16 17:49:10,221 db-server-14: Received heartbeat 1
+2018-04-16 17:49:11,182 db-server-12: Received heartbeat 1
+2018-04-16 17:49:11,186 db-server-1: Received heartbeat 1
+2018-04-16 17:49:11,194 db-server-10: Received heartbeat 1
+2018-04-16 17:49:11,200 db-server-7: Received heartbeat 1
+2018-04-16 17:49:11,200 db-server-14: Received heartbeat 1
+2018-04-16 17:49:11,203 db-server-9: Received heartbeat 1
+2018-04-16 17:49:11,203 db-server-0: Received heartbeat 1
+2018-04-16 17:49:11,208 db-server-3: Received heartbeat 1
+2018-04-16 17:49:11,212 db-server-6: Received heartbeat 1
+2018-04-16 17:49:11,212 db-server-11: Received heartbeat 1
+2018-04-16 17:49:12,193 db-server-12: Received heartbeat 1
+2018-04-16 17:49:12,196 db-server-1: Received heartbeat 1
+2018-04-16 17:49:12,204 db-server-10: Received heartbeat 1
+2018-04-16 17:49:12,207 db-server-7: Received heartbeat 1
+2018-04-16 17:49:12,209 db-server-14: Received heartbeat 1
+2018-04-16 17:49:12,210 db-server-0: Received heartbeat 1
+2018-04-16 17:49:12,211 db-server-9: Received heartbeat 1
+2018-04-16 17:49:12,218 db-server-3: Received heartbeat 1
+2018-04-16 17:49:12,219 db-server-6: Received heartbeat 1
+2018-04-16 17:49:12,220 db-server-11: Received heartbeat 1
+2018-04-16 17:49:13,204 db-server-12: Received heartbeat 1
+2018-04-16 17:49:13,207 db-server-1: Received heartbeat 1
+2018-04-16 17:49:13,210 db-server-10: Received heartbeat 1
+2018-04-16 17:49:13,213 db-server-14: Received heartbeat 1
+2018-04-16 17:49:13,217 db-server-7: Received heartbeat 1
+2018-04-16 17:49:13,220 db-server-9: Received heartbeat 1
+2018-04-16 17:49:13,223 db-server-0: Received heartbeat 1
+2018-04-16 17:49:13,227 db-server-3: Received heartbeat 1
+2018-04-16 17:49:13,229 db-server-11: Received heartbeat 1
+2018-04-16 17:49:13,230 db-server-6: Received heartbeat 1
+2018-04-16 17:49:14,215 db-server-12: Received heartbeat 1
+2018-04-16 17:49:14,217 db-server-1: Received heartbeat 1
+2018-04-16 17:49:14,218 db-server-10: Received heartbeat 1
+2018-04-16 17:49:14,221 db-server-14: Received heartbeat 1
+2018-04-16 17:49:14,227 db-server-7: Received heartbeat 1
+2018-04-16 17:49:14,230 db-server-9: Received heartbeat 1
+2018-04-16 17:49:14,235 db-server-0: Received heartbeat 1
+2018-04-16 17:49:14,237 db-server-3: Received heartbeat 1
+2018-04-16 17:49:14,239 db-server-11: Received heartbeat 1
+2018-04-16 17:49:14,241 db-server-6: Received heartbeat 1
+2018-04-16 17:49:15,220 db-server-12: Received heartbeat 1
+2018-04-16 17:49:15,223 db-server-1: Received heartbeat 1
+2018-04-16 17:49:15,224 db-server-10: Received heartbeat 1
+2018-04-16 17:49:15,227 db-server-14: Received heartbeat 1
+2018-04-16 17:49:15,235 db-server-7: Received heartbeat 1
+2018-04-16 17:49:15,239 db-server-9: Received heartbeat 1
+2018-04-16 17:49:15,242 db-server-0: Received heartbeat 1
+2018-04-16 17:49:15,247 db-server-3: Received heartbeat 1
+2018-04-16 17:49:15,248 db-server-6: Received heartbeat 1
+2018-04-16 17:49:15,250 db-server-11: Received heartbeat 1
+2018-04-16 17:49:16,233 db-server-12: Received heartbeat 1
+2018-04-16 17:49:16,233 db-server-10: Received heartbeat 1
+2018-04-16 17:49:16,236 db-server-1: Received heartbeat 1
+2018-04-16 17:49:16,237 db-server-14: Received heartbeat 1
+2018-04-16 17:49:16,244 db-server-7: Received heartbeat 1
+2018-04-16 17:49:16,248 db-server-9: Received heartbeat 1
+2018-04-16 17:49:16,251 db-server-0: Received heartbeat 1
+2018-04-16 17:49:16,254 db-server-3: Received heartbeat 1
+2018-04-16 17:49:16,256 db-server-6: Received heartbeat 1
+2018-04-16 17:49:16,257 db-server-11: Received heartbeat 1
+2018-04-16 17:49:17,245 db-server-10: Received heartbeat 1
+2018-04-16 17:49:17,248 db-server-14: Received heartbeat 1
+2018-04-16 17:49:17,250 db-server-12: Received heartbeat 1
+2018-04-16 17:49:17,255 db-server-1: Received heartbeat 1
+2018-04-16 17:49:17,258 db-server-7: Received heartbeat 1
+2018-04-16 17:49:17,259 db-server-0: Received heartbeat 1
+2018-04-16 17:49:17,262 db-server-9: Received heartbeat 1
+2018-04-16 17:49:17,263 db-server-3: Received heartbeat 1
+2018-04-16 17:49:17,265 db-server-6: Received heartbeat 1
+2018-04-16 17:49:17,265 db-server-11: Received heartbeat 1
+2018-04-16 17:49:18,256 db-server-10: Received heartbeat 1
+2018-04-16 17:49:18,258 db-server-12: Received heartbeat 1
+2018-04-16 17:49:18,262 db-server-1: Received heartbeat 1
+2018-04-16 17:49:18,261 db-server-14: Received heartbeat 1
+2018-04-16 17:49:18,269 db-server-7: Received heartbeat 1
+2018-04-16 17:49:18,270 db-server-0: Received heartbeat 1
+2018-04-16 17:49:18,272 db-server-9: Received heartbeat 1
+2018-04-16 17:49:18,275 db-server-3: Received heartbeat 1
+2018-04-16 17:49:18,276 db-server-6: Received heartbeat 1
+2018-04-16 17:49:18,278 db-server-11: Received heartbeat 1
+2018-04-16 17:49:19,267 db-server-10: Received heartbeat 1
+2018-04-16 17:49:19,270 db-server-12: Received heartbeat 1
+2018-04-16 17:49:19,270 db-server-14: Received heartbeat 1
+2018-04-16 17:49:19,275 db-server-1: Received heartbeat 1
+2018-04-16 17:49:19,280 db-server-0: Received heartbeat 1
+2018-04-16 17:49:19,281 db-server-7: Received heartbeat 1
+2018-04-16 17:49:19,286 db-server-6: Received heartbeat 1
+2018-04-16 17:49:19,287 db-server-3: Received heartbeat 1
+2018-04-16 17:49:19,289 db-server-11: Received heartbeat 1
+2018-04-16 17:49:19,318 db-server-9: Received heartbeat 1
+2018-04-16 17:49:20,288 db-server-10: Received heartbeat 1
+2018-04-16 17:49:20,291 db-server-14: Received heartbeat 1
+2018-04-16 17:49:20,295 db-server-12: Received heartbeat 1
+2018-04-16 17:49:20,295 db-server-3: Received heartbeat 1
+2018-04-16 17:49:20,298 db-server-0: Received heartbeat 1
+2018-04-16 17:49:20,299 db-server-1: Received heartbeat 1
+2018-04-16 17:49:20,299 db-server-7: Received heartbeat 1
+2018-04-16 17:49:20,299 db-server-11: Received heartbeat 1
+2018-04-16 17:49:20,302 db-server-9: Received heartbeat 1
+2018-04-16 17:49:20,307 db-server-6: Received heartbeat 1
+2018-04-16 17:49:21,306 db-server-12: Received heartbeat 1
+2018-04-16 17:49:21,306 db-server-10: Received heartbeat 1
+2018-04-16 17:49:21,309 db-server-3: Received heartbeat 1
+2018-04-16 17:49:21,311 db-server-1: Received heartbeat 1
+2018-04-16 17:49:21,311 db-server-14: Received heartbeat 1
+2018-04-16 17:49:21,313 db-server-11: Received heartbeat 1
+2018-04-16 17:49:21,314 db-server-0: Received heartbeat 1
+2018-04-16 17:49:21,314 db-server-7: Received heartbeat 1
+2018-04-16 17:49:21,317 db-server-9: Received heartbeat 1
+2018-04-16 17:49:21,321 db-server-6: Received heartbeat 1
+2018-04-16 17:49:22,082 ActorSystem Logging Shutdown
